@@ -10,13 +10,14 @@
     <h2> Currently available NINJAS:</h2>
     <h3>{{ $greeting }} </h3>
     <ul>
-        <li>Future Ninjas Below: </li>
-        <li>
-            <a href="/ninjas/{{$ninjas[0]["id"]}} ">{{$ninjas[0]["name"]}} </a>
-        </li>
-        <li>
-            <a href="/ninjas/{{$ninjas[1]["id"]}} ">{{$ninjas[1]["name"]}} </a>
-        </li>
+        <h4>Ninjas Below: </h4>
+        @foreach ($ninjas as $ninja)
+            <li>
+                <p>{{ $ninja["name"] }} 
+                <a href="/ninjas/{{$ninja["id"]}} ">View Details</a>  </p> 
+            </li>
+        @endforeach
+        
     </ul>
 </body>
 </html>
