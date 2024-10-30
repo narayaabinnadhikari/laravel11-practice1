@@ -7,10 +7,10 @@
     <title>Ninja Network</title>
 </head>
 <body>
-    <h2> Currently abailable NINJAS</h2>
+    <h2> Currently available NINJAS:</h2>
 
     <ul>
-        <li>Ninjas Here</li>
+        <li>Future Ninjas Here</li>
     </ul>
 </body>
 </html>

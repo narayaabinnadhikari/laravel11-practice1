@@ -9,6 +9,6 @@
     <h1>Welcome to the Laravel Network.</h1>
     <p>Click the button below to view the list of Clients.</p>
 
-    <a href="/ninjas" class="btn">Find Your Clients.</a>
+    <a href="/ninjas" class="btn">Find Your NINJA Clients.</a>
 </body>
 </html>
