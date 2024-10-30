@@ -8,9 +8,15 @@
 </head>
 <body>
     <h2> Currently available NINJAS:</h2>
-
+    <h3>{{ $greeting }} </h3>
     <ul>
-        <li>Future Ninjas Here</li>
+        <li>Future Ninjas Below: </li>
+        <li>
+            <a href="/ninjas/{{$ninjas[0]["id"]}} ">{{$ninjas[0]["name"]}} </a>
+        </li>
+        <li>
+            <a href="/ninjas/{{$ninjas[1]["id"]}} ">{{$ninjas[1]["name"]}} </a>
+        </li>
     </ul>
 </body>
 </html>
