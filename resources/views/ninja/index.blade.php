@@ -2,7 +2,6 @@
     <h2> Currently available NINJAS:</h2>
     <h3>{{ $greeting }} </h3>
     <ul>
-        <h4>Ninjas Below: </h4>
         @foreach ($ninjas as $ninja)
          <li>
            <x-card href="/ninjas/{{ $ninja['id'] }}" :highlight="$ninja['skill'] > 70">
